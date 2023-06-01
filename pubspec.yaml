@@ -1,0 +1,64 @@
+---
+name: lefty
+description: A new Flutter application.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shimmer: ^3.0.0
+  flutter_spinkit: ^5.2.0
+  firebase_auth: ^4.6.2
+  firebase_core: ^2.13.1
+  bot_toast: ^4.0.4
+  cloud_firestore: ^4.8.0
+  flutter_launcher_icons: ^0.13.1
+  provider: null
+  cupertino_icons: ^1.0.5
+  curved_navigation_bar: ^1.0.3
+  numberpicker: ^2.1.2
+  image_picker: ^0.8.7+5
+  firebase_storage: ^11.2.2
+  cached_network_image: ^3.2.3
+  google_maps_flutter: ^2.2.8
+  http: ^1.0.0
+  json_serializable: ^6.7.0
+  location: ^4.2.0
+  geolocator: ^9.0.2
+  get: ^4.6.5
+  shared_preferences: ^2.1.1
+  webview_flutter: ^4.2.1
+  url_launcher: ^6.1.11
+  google_maps_flutter_web: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.0
+  build_runner: ^1.10.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/font/LobsterTwo-Regular.ttf
+    - family: Sans
+      fonts:
+        - asset: assets/font/OpenSans-Light.ttf
+    - family: FredokaOne
+      fonts:
+        - asset: assets/font/FredokaOne-Regular.ttf
+
+flutter_icons:
+  image_path_android: "assets/icon/android-fg.png"
+  image_path_ios: "assets/icon/ios.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  adaptive_icon_background: "assets/icon/android-bg.png" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/icon/android-fg.png"
+
+  # flutter packages pub run flutter_launcher_icons:main
